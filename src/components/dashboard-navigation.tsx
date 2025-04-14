@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Award, Calendar, Home, LogOut, Menu, MessageSquare, Settings, Star, Trophy, User } from "lucide-react"
+import { Calendar, Home, LogOut, Menu, MessageSquare, Settings, Star, Trophy, User } from "lucide-react"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { cn } from "@/lib/utils"
 
@@ -27,11 +27,6 @@ export function DashboardNavigation() {
       name: "Recompensas",
       href: "/rewards",
       icon: Trophy,
-    },
-    {
-      name: "Conquistas",
-      href: "/achievements",
-      icon: Award,
     },
     {
       name: "Comunidade",
